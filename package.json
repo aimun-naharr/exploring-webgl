@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -13,6 +13,9 @@
     "vite-plugin-glsl": "^1.3.0"
   },
   "dependencies": {
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.12.5",
+    "imagesloaded": "^5.0.0",
     "three": "^0.169.0"
   }
 }
